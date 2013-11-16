@@ -97,6 +97,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 html, body {
     height: 100%;
     width: 100%;
@@ -106,7 +107,23 @@ header {
     display: table;
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* Video */
+
+#video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width:100%;
+    min-height:100%;
+    max-height:4000%;
+    max-width:1000%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
 }
 
 /* ==========================================================================
