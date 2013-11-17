@@ -103,11 +103,18 @@ html, body {
     width: 100%;
 }
 
-header {
+header, section {
     display: table;
     height: 100%;
     width: 100%;
+}
+
+header {
     background-color: rgba(255, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #000;
 }
 
 /* Video */
