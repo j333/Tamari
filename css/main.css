@@ -106,6 +106,25 @@ html, body {
     color: #bbb;
 }
 
+/*pintura canvas*/
+        canvas,
+        #sketch{
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+        }
+        #sketch{
+            position:relative;
+        }
+        #tmp_canvas{
+            position:absolute;
+            left:0px;
+            right:0;
+            bottom:0;
+            top:0;
+        }
+/**/
 h2{
     font-style: italic;
     font-weight: normal;
@@ -125,6 +144,8 @@ header, section {
 
 header {
     background-color: rgba(188, 38, 44, 0.9);
+    padding:0;
+    display:block;
 }
 
 .logo {
@@ -137,6 +158,13 @@ header {
     margin-left: -175px;
     top: 50%;
     margin-top: -80px;
+}
+
+header nav{
+    position:absolute;
+    left:30px;
+    top:50%;
+    margin-top:-85px;
 }
 
 header nav ul{
