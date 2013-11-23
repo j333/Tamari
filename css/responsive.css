@@ -1,6 +1,18 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
     .container{
     	max-width: 1000px;
     	margin: auto;
     }
+}
+@media only screen and (min-width: 500px) {
+    .col{
+	    float: left;
+	    margin: 0 2% 0 2%;
+	}
+	.col1-3{
+	    width: 29.3%;
+	}
+	.col2-3{
+	    width: 58.6%;
+	}
 }
