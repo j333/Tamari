@@ -32,7 +32,7 @@
 				mouse.y = typeof e.offsetY !== 'undefined' ? e.offsetY : e.layerY;
 			}, false);
 			
-            tmp_ctx.fillStyle = 'red';
+            tmp_ctx.fillStyle = 'white';
             tmp_ctx.fill();
             tmp_ctx.fillRect(0,0,canvas.width,canvas.height);
 
