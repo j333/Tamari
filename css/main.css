@@ -139,6 +139,17 @@ header {
     top: 50%;
     margin-top: -80px;
 }
+.isologo{
+    background-image: url(../img/isologo.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 61px;
+    width: 100px;
+    top: 25px;
+    left: 25px;
+    text-indent: -9999px;
+    margin: 0;
+}
 
 /*pintura canvas*/
 canvas,
@@ -182,17 +193,28 @@ canvas,
 
 .intro{
     background-color: #bc262c;
-    background-image: url(../img/intro.jpg);
+    background: url(../img/intro.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: #fff;
     text-align: center;
     font-size: 1.5em;
     font-style: italic;
+    padding: 3em;
 }
 
-/* MENUS */
+.intro.vineyard{
+    background-image: url(../img/intro-vineyard.jpg);
+    background-attachment: fixed;
+}
+
+/* Menu */
 nav.menu{
     position: fixed;
     bottom: 0;
+    left: 0;
     text-align: center;
     width: 100%;
     margin: 0;
@@ -201,7 +223,9 @@ nav a{
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
+    font-style: normal;
     letter-spacing: 5px;
+    font-size: 12px;
 }
 nav.menu > a{
     width: 50%;
@@ -218,15 +242,15 @@ nav.menu ul{
     width: 100%;
     opacity: 0;
     height: 0;
-    transition: all 5s;
+    transition: all 1s;
 }
 nav.menu:hover ul {
     height: auto;
-    display: block;
     opacity: 1;
 }
-nav.menu:hover > a{
+nav.menu:hover > a, nav.wines:hover > a{
     opacity: 0;
+    transition: all 0s;
 }
 nav.menu li a{
     width: 100%;
@@ -235,17 +259,49 @@ nav.menu li a{
     color:#fff;
     margin: 0;
 }
+
+/* Menu Wines*/
 nav.wines{
     position: fixed;
     top: 50%;
     right: 0;
+}
+nav.wines > a{
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -o-transform: rotate(270deg);
     writing-mode: tb-rl;
+    display: block;
 }
 nav.wines ul{
     display: none;
+    height: 248px;
+    margin-top: -124px;
+}
+nav.wines:hover > ul {
+    display: block;
+}
+nav.wines li a{
+    width: 172px;
+    height: 44px;
+    display: block;
+    text-indent: -999999px;
+    margin-bottom: 7px;
+    margin-right: -70px;
+    float: right;
+    transition: all 1s ease;
+    opacity: .2;
+}
+nav.wines li a:hover{
+    margin-right: -20px;
+    opacity: 1;
+}
+nav.wines .euforia a {
+    background-image: url(../img/wines/menu-bottle-euforia.jpg);
+}
+
+.col.col1-3.bottle{
+    text-align: center;
 }
 
 img.bottle{
