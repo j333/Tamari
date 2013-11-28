@@ -30,12 +30,14 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    color: #fff;
+    background: #eb0029;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    color: #fff;
+    background: #eb0029;
     text-shadow: none;
 }
 
@@ -110,7 +112,7 @@ h2{
     font-style: italic;
     font-weight: normal;
     font-size: 3em;
-    color: #bc262c;
+    color: #eb0029;
 }
 
 header, section {
@@ -192,7 +194,7 @@ canvas,
 }
 
 .intro{
-    background-color: #bc262c;
+    background-color: #eb0029;
     background: url(../img/intro.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
