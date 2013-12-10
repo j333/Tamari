@@ -113,6 +113,7 @@ h2{
     font-weight: normal;
     font-size: 3em;
     color: #eb0029;
+    margin-bottom: 0;
 }
 
 header, section {
@@ -319,8 +320,12 @@ img.bottle{
 }
 
 img.bottle-min{
-    max-width: 50px;
-    margin-left: 10px;
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+.bottles-line{
+	margin-top: 2em;
 }
 
 footer {
