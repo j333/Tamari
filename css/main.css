@@ -132,7 +132,7 @@ header {
 
 header.paint{
     display:block;
-    overflow-x: hidden;
+    overflow: hidden;
     cursor: url(../img/cursor.png),auto;
 }
 
@@ -160,7 +160,7 @@ header.paint{
 }
 
 /*pintura canvas*/
-canvas,
+/*canvas,*/
 #sketch{
     margin:0;
     padding:0;
