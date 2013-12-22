@@ -10,7 +10,6 @@
     <meta name="description" content="Bodega Tamarí fue fundada en 2002 y pertenece al San Pedro Tarapacá Wine Group de Chile.">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -28,8 +27,8 @@
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body>
-    <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <!--[if lt IE 8]>
+        <p class="chromeframe">Estás usando un navegador <strong>desactualizado</strong>. Por favor <a href="http://browsehappy.com/">actualízalo</a> para obtener una mejor experiencia en el sitio.</p>
     <![endif]-->
 
     <header class="paint">
@@ -39,11 +38,22 @@
             <source src="http://static.baboom.com/developers/videos/6708b8e4.headquarters.webm" type="video/webm">
         </video>
 
+        <div id="pintura"></div>
+
         <!--div id="sketch">
             <canvas id="paint"></canvas>
         </div-->
         <div id="sketch"></div>
-        
+
+        <div class="pintar">
+            <div class="trazo">
+                <img src="img/trazo_img.svg" class="trazo_img">
+            </div>
+            <div class="trazo_mov">
+                <img src="img/trazo_mov_img.svg" class="trazo_mov_img">
+            </div>
+        </div>
+
         <h1 class="logo">Tamarí</h1>
         <a href="index.html" class="isologo"></a>
         <nav class="menu">
