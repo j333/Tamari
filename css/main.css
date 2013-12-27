@@ -226,7 +226,7 @@ nav.wines li a:hover{
     opacity: 1;
 }
 nav.wines .euforia a {
-    background-image: url(../img/wines/menu-bottle-euforia.jpg);
+    background-image: url(../img/wines/menu-bottle-euforia.png);
 }
 
 .col.col1-3.bottle{
@@ -246,6 +246,17 @@ img.bottle-min{
 .bottles-line{
 	margin-top: 2em;
 }
+
+/* Pop Up */
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 800px;
+  margin: 20px auto;
+}
+/* fin PopUp */
 
 footer {
     background-color: #000;
