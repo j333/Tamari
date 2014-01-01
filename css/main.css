@@ -46,14 +46,14 @@ header.paint{
 
 .logo {
     background-image: url(../img/logo.png);
-    height: 84px;
-    width: 350px;
+    height: 72px;
     text-indent: -9999px;
     position: absolute;
     left: 50%;
-    margin-left: -175px;
-    top: 50%;
-    margin-top: -80px;
+    margin-left: -150px;
+    top: 10%;
+    width: 300px;
+    background-repeat: no-repeat;
 }
 .isologo{
     background-image: url(../img/isologo.png);
